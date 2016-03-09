@@ -15,7 +15,7 @@ RootModule = '.\SFBPosh.psm1'
 ModuleVersion = '1.0'
 
 # ID used to uniquely identify this module
-GUID = '361d2888-9574-4c87-bfb6-7a0678181258'
+GUID = '118a5655-4bb1-4365-9e57-75af6eb663ce'
 
 # Author of this module
 Author = 'Victor Silva'
