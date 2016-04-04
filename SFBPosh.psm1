@@ -1,7 +1,7 @@
 Function Clean-SFBUsers {
     <#
     .SYNOPSIS
-        Este Cmdlet permite borrar los valores de los atributos que usa Skyoe for Business/Lync Server
+        Este Cmdlet permite borrar los valores de los atributos que usa Skype for Business/Lync Server
         en un usuario (o varios) de la organización.
     .EXAMPLE
         Clean-SFBUsers -User 'vsilva'
