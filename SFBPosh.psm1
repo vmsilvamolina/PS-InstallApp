@@ -30,3 +30,21 @@ Function Clean-SFBUsers {
       $adUser.SetInfo()
     }
 }
+
+Function Search-SFBDomain {
+    <#
+    .SYNOPSIS
+        Este Cmdlet permite borrar los valores de los atributos que usa Skype for Business/Lync Server
+        en un usuario (o varios) de la organización.
+    .EXAMPLE
+        Clean-SFBUsers -User 'vsilva'
+
+        Con el ejemplo anterior, todos los atributos de la indentidad 'vsilva'
+        que estén con información pasarán a quedar de forma predeterminada sin valores asignados.
+    .PARAMETER User
+        Identidad a la que se pretende modificar los atributos.
+    #>
+    param (
+      [Parameter(Mandatory=$true)][ValidateNotNullOrEmpty()][string]$User
+    )
+}
