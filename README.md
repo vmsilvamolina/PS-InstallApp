@@ -1,12 +1,12 @@
 # SFBPosh
 Módulo de PowerShell para interactuar con Skype for Business/Lync Server. La idea del módulo es poder compartir algunas funciones útiles para la administración o resolución de problemas dentro de la plataforma.
 
-##Funciones
+## Funciones
 
 * Clean-SFBUser
 * 
 
-##Install
+## Install
 
 Para instalar este módulo, simplemente se debe ejecutar desde una consola con PowerShell v3 (o más reciente) el siguiente comando:
 
